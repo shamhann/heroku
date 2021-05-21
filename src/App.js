@@ -13,12 +13,35 @@ function App() {
   },[])
   return (
       <div>
+          <nav>
+              <ul className='nav'>
+                  <li>
+                      <a href="#">Регистрация</a>
+                  </li>
+                  <li>
+                      <a href="#">настройки</a>
+                  </li>
+                  <li>
+                      <a href="#">Новости</a>
+                  </li>
+              </ul>
+          </nav>
+        <h1>
+          список дел:
+        </h1>
+
         {loading ? 'идет загрузка' : ''}
         {todos.map(todo => {
           return(
-              <div>
-                {todo.title}
+              <div className='section'>
+                  <div className = 'subtitle'>
+                       <b> дело:</b>
+                  </div>
+                <div className='title'>
+                  {todo.title}
+                </div>
               </div>
+
           )
         })}
 
