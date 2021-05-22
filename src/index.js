@@ -23,6 +23,11 @@ const reducer = (state = initialState, action) => {
                 todos: action.payload,
                 loading: false
             };
+        case  'delete':
+            return {
+                ...state,
+                todos: state.todos.filter((todo) =>  todo.id !== action.payload)
+            }
         default:
             return state;
     }
@@ -37,6 +42,4 @@ ReactDOM.render(
     </Provider>,
     document.getElementById('root')
 )
-
-
 

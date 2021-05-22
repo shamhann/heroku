@@ -2,26 +2,34 @@
     text-decoration: none;
 }
 .basis{
-    width: 700px;
+    width: 900px;
     margin: auto;
 }
-.title{
-    width: 500px;
-    color: maroon;
-}
-.section{
-    width: 560px;
-    display: flex;
-    justify-content: space-between;
-}
-h1{
-    text-align: center;
-    margin: 30px 0 50px;
-}
-.nav{
-    list-style-type: none;
-    display: flex;
-    width: 300px;
-    justify-content: space-between;
 
+.header{
+    border-bottom: 1px solid whitesmoke;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px 0;
+}
+.todo{
+    padding: 20px 10px;
+    font-size: 20px;
+    border-bottom: 1px solid whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    padding: 8px;
+    color: red;
+    background-color: white;
+    font-size: 15px;
+    border: 0;
+}
+.img{
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: dimgrey;
+    color: whitesmoke;
+    padding: 10px;
 }
