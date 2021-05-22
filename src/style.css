@@ -1,6 +1,10 @@
 *{
     text-decoration: none;
 }
+.basis{
+    width: 700px;
+    margin: auto;
+}
 .title{
     width: 500px;
     color: maroon;

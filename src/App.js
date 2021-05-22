@@ -13,19 +13,6 @@ function App() {
   },[])
   return (
       <div>
-          <nav>
-              <ul className='nav'>
-                  <li>
-                      <a href="#">Регистрация</a>
-                  </li>
-                  <li>
-                      <a href="#">настройки</a>
-                  </li>
-                  <li>
-                      <a href="#">Новости</a>
-                  </li>
-              </ul>
-          </nav>
         <h1>
           список дел:
         </h1>
