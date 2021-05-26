@@ -16,8 +16,8 @@ function App(props) {
     const handleDelete = (id) => {
         dispatch(deleteTodo(id))
     }
-    const handleCheck = (id,completed) => {
-        dispatch((checkTodo(id,completed)))
+    const handleCheck = (id,deleted) => {
+        dispatch((checkTodo(id,deleted)))
     }
 
     return (
