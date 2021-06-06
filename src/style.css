@@ -1,6 +1,7 @@
 *{
     text-decoration: none;
 }
+
 .basis{
     width: 900px;
     margin: auto;
@@ -33,4 +34,19 @@
     background-color: dimgrey;
     color: white;
     padding: 10px;
+}
+.contacts{
+    font-size: 50px;
+    color: maroon;
+}
+.home{
+    font-size: 30px;
+}
+a{
+    margin: 45px;
+    font-size: 30px;
+}
+.app{
+    width: 500px;
+    margin: auto;
 }
