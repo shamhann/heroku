@@ -1,18 +1,24 @@
-
 import React from 'react';
-import {Route} from 'react-router-dom'
+import {link,Route} from 'react-router-dom'
 import HomePage from "./HomePage";
 import ContactsPage from "./ContactsPage";
 function App(props) {
     return (
         <div className='app'>
-            <a href="/home"> главная</a>
-            <a href="/contacts">limda</a>
+
+            <link to='/home'>
+                главная
+            </link>
+            <link to='/contacts'>
+                контакты
+            </link>
+
             <Route path='/home'>
                 <HomePage/>
             </Route>
+
             <Route path='/contacts'>
-                <ContactsPage/>
+               <ContactsPage/>
             </Route>
         </div>
     );
